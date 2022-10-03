@@ -15,7 +15,7 @@ app.use(cors());
 
 app.use('/posts', postRoutes);
 
-const CONNECTION_URL = 'mongodb+srv://mat:F12abde43c@cluster0.qv6wlmk.mongodb.net/?retryWrites=true&w=majority'
+const CONNECTION_URL = 'no';
 
 const PORT = process.env.port || 5000;
 
